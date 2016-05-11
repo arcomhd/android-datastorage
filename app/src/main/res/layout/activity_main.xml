@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INPUT" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save SP"
+        android:id="@+id/buttonSaveSP"
+        android:onClick="saveSP"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load SP"
+        android:onClick="loadSP"
+        android:id="@+id/buttonLoadSP"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save IS"
+        android:id="@+id/buttonSaveIS"
+        android:onClick="saveIS"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load IS"
+        android:onClick="loadIS"
+        android:id="@+id/buttonLoadIS"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save ES"
+        android:id="@+id/buttonSaveES"
+        android:onClick="saveES"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load ES"
+        android:onClick="loadES"
+        android:id="@+id/buttonLoadES"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OUTPUT:" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ouputText" />
+
+</LinearLayout>
